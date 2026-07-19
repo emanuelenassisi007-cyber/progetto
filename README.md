@@ -6,7 +6,7 @@
 
 A lightweight, privacy-focused **Fitness Tracker** web application. It allows users to log their daily calorie intake, track weight fluctuations, calculate their Basal Metabolic Rate (BMR), and visualize their weight journey over time.
 
-🚀 **[View Live Demo](https://tuo-username.github.io/nome-repo/)** *(Sostituisci con il tuo link GitHub Pages)*
+🚀 **[View Live Demo](https://emanuelenassisi007-cyber.github.io/progetto/)**
 
 ---
 
