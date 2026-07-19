@@ -32,7 +32,29 @@ A lightweight, privacy-focused **Fitness Tracker** web application. It allows us
 ## Project Structure
 
 ```text
-├── index.html         
-├── style.css          
+├── README.md          
+├── index.html          
 ├── script.js        
-└── README.md           
+└── style.css          
+```
+---
+
+##  How It Works (Under the Hood)
+
+### 1. BMR Calculation
+The app calculates your recommended daily calories based on the **Mifflin-St Jeor** formula:
+
+*   **Men:** $BMR = 10 \times \text{weight (kg)} + 6.25 \times \text{height (cm)} - 5 \times \text{age (years)} + 5$
+*   **Women:** $BMR = 10 \times \text{weight (kg)} + 6.25 \times \text{height (cm)} - 5 \times \text{age (years)} - 161$
+
+### 2. Custom Canvas Graph
+Instead of loading heavy charting libraries, the application maps the minimum and maximum logged weights directly to the pixel coordinates of an HTML5 `<canvas>`, drawing an optimized vector line trend.
+
+---
+
+## Future Improvements
+
+- [ ]  **Responsive Inputs:** Refine the CSS layout to better support smaller mobile screens.
+- [ ]  **Dark Mode:** Add a modern dark theme toggle.
+- [ ]  **Data Management:** Add a button to delete specific entries or clear the entire history.
+- [ ]  **Advanced Graphics:** Add grid lines and dates to the canvas chart axes.
